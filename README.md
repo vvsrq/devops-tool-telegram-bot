@@ -28,9 +28,9 @@ Possible improvements:
 
 Reminder
 Create an .env file and put
-        TELEGRAM_API_KEY = 
-        PROMETHEUS_URL = 
-        ALLOW_CHAT_ID= int
+    TELEGRAM_API_KEY = 
+    PROMETHEUS_URL = 
+    ALLOW_CHAT_ID= int
 There
 
 Also create a report.txt file in the root
