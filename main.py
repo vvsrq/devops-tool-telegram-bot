@@ -166,7 +166,7 @@ async def metrics(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 val = escape_markdown(value)
                 message += f"\n  `{inst}` → `{val}`"
 
-    await update.message.reply_markdown_v2(message)
+    await update.message.reply_markdown_v2(message) # brainrot	
 
 async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
     logging.error(msg="Exception while handling an update:", exc_info=context.error)
